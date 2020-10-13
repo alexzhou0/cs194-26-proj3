@@ -47,7 +47,13 @@ From the dataset, I was able to compute an average face mesh, as well as the ave
 <td> <img src="website_imgs/average.jpg" alt="Average face" width="400"/> </td>
 </tr></table>
 
-With this average face and mesh, we can try to transform our face's structure to the average, and the average face's structure to ours. The results are shown below.
+With this average face and mesh, we can transform the individual photos of the dataset to look more like the average's face structure. Some of the results are shown below.
+
+<img src="website_imgs/averaged.png" alt="Faces warped towards the average" width="1200"/>
+
+We can see quite clearly for the first two people that their faces have been widened, and their chins have become more flat. They still look relatively normal though! For the last person, his face, and in particular his jawline, is wider than average. In the warped image, this feature is attenuated, with his face becoming less rectangular. 
+
+We can also try to transform our face's structure to the average, and the average face's structure to ours. The results are shown below.
 
 <table><tr>
 <td> <img src="website_imgs/me_avg.png" alt="My face warped to average" width="400"/> </td>
